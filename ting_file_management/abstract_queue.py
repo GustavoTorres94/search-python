@@ -12,4 +12,4 @@ class AbstractQueue(ABC):
 
     @abstractmethod
     def dequeue(self):
-        pass
+        raise NotImplementedError
